@@ -1,0 +1,25 @@
+body
+{
+ background-repeat: no-repeat;
+ background-size: 1400px;
+ font-family: 'Lobster Two', cursive;
+ color:gold;
+}
+
+canvas
+{
+ animation-name:changingColor;
+ animation-duration:6s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes changingColor 
+{
+ from{box-shadow: 1px 1px 38px #047cb0;}
+ to{box-shadow: 1px 1px 38px #0366fc;}
+}
+
+#capture_button
+{
+    background-color:black ;
+}
